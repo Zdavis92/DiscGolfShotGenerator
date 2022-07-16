@@ -16,7 +16,7 @@ const Dice = () => {
                     <p className="text-2xl">{results[1]}</p>
                 </div>
             </div>
-            <button className="bg-sky-600 border-black border-2 rounded-lg p-2 w-1/2 text-2xl font-semibold" onClick={rollDice}>Roll!</button>
+            <button className="bg-sky-600 border-black border-2 rounded-lg p-2 w-1/2 text-2xl font-semibold sm:mt-4" onClick={rollDice}>Roll!</button>
         </div>
     )
 }
