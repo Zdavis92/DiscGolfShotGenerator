@@ -33,7 +33,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "https://zdavis92.github.io/DiscGolfShotGenerator/",
   "display": "fullscreen",
   "theme_color": "#000000",
   "background_color": "#ffffff",
