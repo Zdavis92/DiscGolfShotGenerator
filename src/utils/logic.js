@@ -10,15 +10,12 @@ const randomIndexValue = (array) => {
 }
 
 const addExtraValues = (array, valueToAdd, numToAdd) => {
-    const copyOfArray = [...array];
-    for (i = 0; i < numToAdd; i++) {
-        copyOfArray.push(valueToAdd);
+    for (let i = 0; i < numToAdd; i++) {
+        array.push(valueToAdd);
     };
-
-    return copyOfArray;
 }
 
-const createEasyArray = () => {
+const createEasyArrays = () => {
     const easyDiscTypeArray = [...discType];
 
     addExtraValues(easyDiscTypeArray, "Your choice Disc", 4);
@@ -40,19 +37,19 @@ const createEasyArray = () => {
     return newArrays;
 }
 
-const createHardArray = () => {
+const createHardArrays = () => {
     const hardDiscTypeArray = [...discType];
 
     addExtraValues(hardDiscTypeArray, "Opponent Chooses Disc", 3);
-    addExtraValues(hardDiscTypeArray, "Most Over-Stable", 4);
+    addExtraValues(hardDiscTypeArray, "Most Over-Stable", 3);
     addExtraValues(hardDiscTypeArray, "Most Under-Stable", 2);
     addExtraValues(hardDiscTypeArray, "Fastest Disc", 3);
 
     const hardShotTypeArray = [...shotType];
 
-    addExtraValues(hardShotTypeArray, "Backhand Roller", 4);
-    addExtraValues(hardShotTypeArray, "Grenade", 3);
-    addExtraValues(hardShotTypeArray, "Tomahawk", 3);
+    addExtraValues(hardShotTypeArray, "Backhand Roller", 3);
+    addExtraValues(hardShotTypeArray, "Grenade", 2);
+    addExtraValues(hardShotTypeArray, "Tomahawk", 2);
     addExtraValues(hardShotTypeArray, "Thumber", 2);
     const newArrays = [
         hardDiscTypeArray, hardShotTypeArray
@@ -61,12 +58,17 @@ const createHardArray = () => {
     return newArrays;
 }
 
-const roll = () => {
+const createMediumArrays = () => {
+    const newArrays = [discType, shotType]
+    return newArrays;
+}
+
+const roll = (newArrays) => {
     const results = [
-        randomIndexValue(discType),
-        randomIndexValue(shotType)
+        randomIndexValue(newArrays[0]),
+        randomIndexValue(newArrays[1])
     ];
     return results;
 }
 
-module.exports = roll;
+module.exports = { createEasyArrays, createMediumArrays, createHardArrays, roll };
