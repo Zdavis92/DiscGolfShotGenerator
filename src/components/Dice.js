@@ -6,7 +6,6 @@ const Dice = () => {
     const [results, setResults] = useState(["Disc Type", "Disc Shot"]);
 
     const easySelected = () => {
-        console.log("easy selected")
         let easyButton = document.getElementById('easyBtn');
         let mediumButton = document.getElementById('medBtn');
         let hardButton = document.getElementById('hardBtn');
@@ -26,7 +25,6 @@ const Dice = () => {
     };
 
     const mediumSelected = () => {
-        console.log("medium selected")
         let easyButton = document.getElementById('easyBtn');
         let mediumButton = document.getElementById('medBtn');
         let hardButton = document.getElementById('hardBtn');
@@ -46,7 +44,6 @@ const Dice = () => {
     };
 
     const hardSelected = () => {
-        console.log("hard selected")
         let easyButton = document.getElementById('easyBtn');
         let mediumButton = document.getElementById('medBtn');
         let hardButton = document.getElementById('hardBtn');
@@ -66,7 +63,6 @@ const Dice = () => {
     };
 
     const rollDice = () => {
-        console.log(arraysToUse);
         setResults(roll(arraysToUse));
     };
 
