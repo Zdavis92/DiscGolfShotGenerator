@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/DiscGolfShotGenerator/static/css/main.c19bc924.css",
-    "main.js": "/DiscGolfShotGenerator/static/js/main.6e856b59.js",
+    "main.js": "/DiscGolfShotGenerator/static/js/main.51f152ef.js",
     "static/js/787.28cb0dcd.chunk.js": "/DiscGolfShotGenerator/static/js/787.28cb0dcd.chunk.js",
     "static/media/bg-image.jpg": "/DiscGolfShotGenerator/static/media/bg-image.d33dc48fc26d4dcac31f.jpg",
     "service-worker.js": "/DiscGolfShotGenerator/service-worker.js",
     "index.html": "/DiscGolfShotGenerator/index.html",
     "main.c19bc924.css.map": "/DiscGolfShotGenerator/static/css/main.c19bc924.css.map",
-    "main.6e856b59.js.map": "/DiscGolfShotGenerator/static/js/main.6e856b59.js.map",
+    "main.51f152ef.js.map": "/DiscGolfShotGenerator/static/js/main.51f152ef.js.map",
     "787.28cb0dcd.chunk.js.map": "/DiscGolfShotGenerator/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c19bc924.css",
-    "static/js/main.6e856b59.js"
+    "static/js/main.51f152ef.js"
   ]
 }
