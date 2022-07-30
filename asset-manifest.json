@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/DiscGolfShotGenerator/static/css/main.4a07d03f.css",
-    "main.js": "/DiscGolfShotGenerator/static/js/main.2c475243.js",
+    "main.css": "/DiscGolfShotGenerator/static/css/main.4b1087fc.css",
+    "main.js": "/DiscGolfShotGenerator/static/js/main.237cab2c.js",
     "static/js/787.28cb0dcd.chunk.js": "/DiscGolfShotGenerator/static/js/787.28cb0dcd.chunk.js",
     "static/media/bg-image.jpg": "/DiscGolfShotGenerator/static/media/bg-image.d33dc48fc26d4dcac31f.jpg",
     "service-worker.js": "/DiscGolfShotGenerator/service-worker.js",
     "index.html": "/DiscGolfShotGenerator/index.html",
-    "main.4a07d03f.css.map": "/DiscGolfShotGenerator/static/css/main.4a07d03f.css.map",
-    "main.2c475243.js.map": "/DiscGolfShotGenerator/static/js/main.2c475243.js.map",
+    "main.4b1087fc.css.map": "/DiscGolfShotGenerator/static/css/main.4b1087fc.css.map",
+    "main.237cab2c.js.map": "/DiscGolfShotGenerator/static/js/main.237cab2c.js.map",
     "787.28cb0dcd.chunk.js.map": "/DiscGolfShotGenerator/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a07d03f.css",
-    "static/js/main.2c475243.js"
+    "static/css/main.4b1087fc.css",
+    "static/js/main.237cab2c.js"
   ]
 }
