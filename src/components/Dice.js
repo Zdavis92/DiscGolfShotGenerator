@@ -81,19 +81,19 @@ const Dice = () => {
                 <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-20 bg-sky-600 border-2 rounded-lg border-black h-fit w-3/4 flex flex-col justify-center text-center">
                     <h1 className="text-4xl m-4">Select a Difficulty</h1>
                     <div className="flex flex-col justify-between items-center m-2">
-                        <button className="bg-sky-400 border-yellow-400 border-2 rounded-lg w-1/2 m-2 p-1 text-2xl font-semibold" onClick={easySelected}>Easy</button>
-                        <button className="bg-sky-400 border-yellow-400 border-2 rounded-lg w-1/2 m-2 p-1 text-2xl font-semibold" onClick={mediumSelected}>Medium</button>
-                        <button className="bg-sky-400 border-yellow-400 border-2 rounded-lg w-1/2 m-2 p-1 text-2xl font-semibold" onClick={hardSelected}>Hard</button>
+                        <button className="bg-sky-400 border-yellow-400 border-2 rounded-lg w-1/2 m-2 p-1 text-2xl font-semibold hover:bg-sky-700" onClick={easySelected}>Easy</button>
+                        <button className="bg-sky-400 border-yellow-400 border-2 rounded-lg w-1/2 m-2 p-1 text-2xl font-semibold hover:bg-sky-700" onClick={mediumSelected}>Medium</button>
+                        <button className="bg-sky-400 border-yellow-400 border-2 rounded-lg w-1/2 m-2 p-1 text-2xl font-semibold hover:bg-sky-700" onClick={hardSelected}>Hard</button>
                     </div>
                 </div>
             </div>}
-            <div className="absolute w-screen h-1/2 flex flex-col items-center text-center justify-between top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+            <div className="absolute w-full lg:w-1/2 xl:w-1/3 h-1/2 flex flex-col items-center text-center justify-between top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
                 <div className="flex flex-row w-11/12 justify-between mt-4">
                     <button id="easyBtn" className="bg-sky-600 border-black border-2 rounded-lg w-1/3 m-2 p-1 text-2xl font-semibold sm:mt-4" onClick={easySelected}>Easy</button>
                     <button id="medBtn" className="bg-sky-600 border-black border-2 rounded-lg w-1/3 m-2 p-1 text-2xl font-semibold sm:mt-4" onClick={mediumSelected}>Medium</button>
                     <button id="hardBtn" className="bg-sky-600 border-black border-2 rounded-lg w-1/3 m-2 p-1 text-2xl font-semibold sm:mt-4" onClick={hardSelected}>Hard</button>
                 </div>
-                <div className="flex flex-col w-screen items-center">
+                <div className="flex flex-col w-full items-center">
                     <div className="bg-slate-300 border-black border-2 rounded-lg p-2 mb-4 w-3/4">
                         <p className="text-2xl">{results[0]}</p>
                     </div>
